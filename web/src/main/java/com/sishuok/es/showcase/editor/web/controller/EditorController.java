@@ -41,5 +41,9 @@ public class EditorController extends BaseCRUDController<Editor, Long> {
         return result.hasErrors();
     }
 
+    public String createUeditor(){
+        return viewName("ueditor");
+    }
+
 
 }
